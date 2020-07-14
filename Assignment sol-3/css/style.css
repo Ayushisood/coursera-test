@@ -1,0 +1,33 @@
+body{
+	background-color: #5F9EA0;
+}
+#content {
+	background-color: #708090;
+}
+* {
+	box-sizing: border-box;
+}
+.container{
+	background-color: #483D8B;
+	color: white;
+	height: 750px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+h2{
+	margin: 20px;
+}
+section{
+	padding: 20px;
+}
+@media(max-width: 576px) {
+	.container {
+		width: 80%;
+	}
+}
+@media(min-width: 577px) {
+	.container {
+		max-width: 90%;
+	}
+}
+
